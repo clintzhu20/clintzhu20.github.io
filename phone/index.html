@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>校外轨迹定位</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0,minimum-scale,maximum-scale=1.0">
+    <title>换学生证</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/rem.js"></script>
+    <style>
+        header,.prob,.sport{
+            padding: .20rem .35rem;
+        }
+        .header-left img{
+            width: .78rem;
+            height: .78rem;
+            display: inline-block;
+            -webkit-border-radius:50%;
+            -moz-border-radius:50%;
+            border-radius:50%;
+        }
+        .header-left a{
+            font-size: .32rem;
+            color: #000;
+            line-height:.78rem;
+            display: inline-block;
+            margin-left: .20rem;
+            padding-right: .42rem;
+            background-image: url(images/down-fi-icon@3x.png);
+            -webkit-background-size:.36rem auto;
+            background-size:.36rem auto;
+            background-repeat: no-repeat;
+            background-position: right center;
+        }
+        .header-left a span{
+            color: #ff6800;
+        }
+        .a-apply a{
+            background-image: url(images/more-icon@3x.png);
+            -webkit-background-size:.40rem;
+            background-size:.40rem;
+            width: .40rem;
+            height: .40rem;
+            background-repeat: no-repeat;
+            line-height: .78rem;
+            display: inline-block;
+        }
+        .info{
+            padding:.20rem .35rem;
+        }
+        .info img{
+            width: .57rem;
+            height: .41rem;
+        }
+        .info h2{
+            font-size:.25rem;
+            line-height:.41rem;
+            display: inline-block;
+        }
+        .prob .flex a{
+            font-size: .32rem;
+            color: #000;
+            position: relative;
+            line-height: 0.35rem;
+        }
+        .prob .flex .bar::before {
+            content: '';
+            display: inline-block;
+            width: 0.06rem;
+            height: 0.35rem;
+            -webkit-border-radius: 0.4rem;
+            -moz-border-radius: 0.4rem;
+            border-radius: 0.4rem;
+            background-color: #ff0000;
+            position: absolute;
+            left: -0.15rem;
+            top: 0;
+
+        }
+        .prob .flex p{
+            font-size:.23rem;
+            color: #999999;
+        }
+        .data .grid p{
+            font-size: .26rem;
+            color: #807b7b;
+            margin: .30rem 0;
+        }
+        .data .grid{
+            width: 2.5rem;
+            text-align: center;
+        }
+        .banner{
+            background-image: url(images/banner-img@3x.png);
+            -webkit-background-size:7.5rem auto;
+            background-size:7.5rem auto;
+            width: 7.5rem;
+            height: 1.9rem;
+            background-repeat: no-repeat;
+        }
+        .sport .flex .bar::before {
+            content: '';
+            display: inline-block;
+            width: 0.06rem;
+            height: 0.35rem;
+            -webkit-border-radius: 0.4rem;
+            -moz-border-radius: 0.4rem;
+            border-radius: 0.4rem;
+            background-color: darkorange;
+            position: absolute;
+            left: -0.15rem;
+            top: 0;
+        }
+        .sport .flex p,.circle p {
+            font-size:.23rem;
+            color: #999999;
+        }
+        .sport .flex a{
+            font-size: .32rem;
+            color: #000;
+            position: relative;
+            line-height: 0.35rem;
+        }
+        .chart{
+            padding: .35rem .8rem;
+        }
+        .chart .circle{
+            width: 2.1rem;
+            height: 2.1rem;
+            -webkit-border-radius:50%;
+            -moz-border-radius:50%;
+            border-radius:50%;
+            border: .2rem solid darkorange ;
+            text-align: center;
+        }
+        .circle h2{
+            font-size: .5rem;
+        }
+        footer div{
+            text-align: center;
+            display: inline-block;
+            width:3.75rem;
+        }
+        footer p{
+            font-size: 0.3rem;
+            color: #999999;
+        }
+        footer span{
+            color: darkorange;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container flex">
+        <div class="flex header-left">
+            <img src="images/boy-head-icon@3x.png" alt="">
+            <a href="#">张三<span>（住校）</span></a>
+        </div>
+        <div class="a-apply">
+            <a href="#" ></a>
+        </div>
+    </header>
+    <main>
+        <div style="background-color: black;width: 750px;height: 320px;"></div>
+        <div class="info flex">
+            <img src="images/tel-icon@3x.png" alt="">
+            <h2>张三的电子学生证电量已低于10%，请及时完成充电！</h2>
+        </div>
+        <div style="background-color:#f0f0f0; width: 750px;height: 20px;"></div>
+        <div class="prob">
+            <div class="flex">
+                <a href="#" class="bar">本周异常</a>
+                <p>本周有8次异常，需要多关心一下哦~</p>
+            </div>
+        </div>
+        <div style="background-color:#f0f0f0; width: 750px;height: 5px;"></div>
+        <div class="data flex">
+            <div class="grid">
+                <p>长时间停留</p>
+                <p style="color: dodgerblue;font-size: .50rem">3<span style="font-size: .26rem">处</span></p>
+            </div>
+            <div class="grid">
+                <p>轨迹偏移</p>
+                <p style="color: orange;font-size: .50rem">2<span style="font-size: .26rem">次</span></p>
+            </div>
+            <div class="grid">
+                <p>紧急求助</p>
+                <p style="color: red;font-size: .50rem">3<span style="font-size: .26rem">次</span></p>
+            </div>
+        </div>
+        <div style="background-color:#f0f0f0; width: 750px;height: 20px;"></div>
+        <div class="banner"></div>
+        <div style="background-color:#f0f0f0; width: 750px;height: 20px;"></div>
+
+        <div class="sport">
+            <div class="flex">
+                <a href="#" class="bar">今日运动</a>
+                <p>今日运动量充足，明天继续保持哦~</p>
+            </div>
+        </div>
+        <div style="background-color:#f0f0f0; width: 750px;height: 5px;"></div>
+        <div class="flex chart">
+            <div class="circle">
+                <p style="margin: .3rem 0;">今日步数</p>
+                <h2>13000</h2>
+            </div>
+            <div class="circle">
+                <p style="margin: .3rem 0;">班级排名</p>
+                <h2>23</h2>
+            </div>
+        </div>
+        <div style="background-color:#f0f0f0; width: 750px;height: 5px;"></div>
+        <footer class="flex">
+            <div style="text-align: center">
+                <p>距离: <span>5.6公里</span></p>
+            </div>
+            <div style="text-align: center;">
+                <p>消耗热量: <span>156千卡</span></p>
+            </div>
+        </footer>
+    </main>
+
+
+
+</body>
+</html>

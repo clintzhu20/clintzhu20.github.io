@@ -1,0 +1,150 @@
+
+blockquote, body, html, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr,
+input, legend, li, ol, p, pre, td, textarea, th, ul, label {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    font-family: "PingFang SC Regular","Noto Sans S Chinese Regular", "Microsoft YaHei", "sans-serif";
+        -webkit-tap-highlight-color: transparent;
+}
+/*media  */
+
+html{font-size:42px}
+@media screen and (min-width:321px) and (max-width:375px){html{font-size:42.9px}}
+@media screen and (min-width:376px) and (max-width:414px){html{font-size: 50.1333px;}}
+@media screen and (min-width:415px) and (max-width:639px){html{font-size: 55.3333px;}}
+@media screen and (min-width:640px) and (max-width:719px){html{font-size: 85.3333px;}}
+@media screen and (min-width:720px) and (max-width:749px){html{font-size: 96px;}}
+@media screen and (min-width:750px) and (max-width:799px){html{font-size: 100px;}}
+@media screen and (min-width:800px){html{font-size:100px}}
+
+/*media  */
+
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 16px;
+}
+html{
+    overflow-x: hidden;
+}
+body {
+    line-height: 1;
+    font-size: 12px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: #fff;
+}
+.controller {
+    position: relative;
+    margin: 0 .2rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+a:focus,
+a:active {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*禁止链接高亮*/
+    -webkit-touch-callout: none; /*禁止链接长按弹出选项菜单*/
+}
+::-webkit-input-placeholder{
+    color: #999;
+}    
+::-moz-placeholder{
+      color: #999;
+}                  
+:-moz-placeholder{
+      color: #999;
+}                  
+:-ms-input-placeholder{
+      color: #999;
+}           
+li {
+    list-style: none;
+}
+
+.flex {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+
+    -webkit-flex-flow: wrap row;
+    -ms-flex-flow: wrap row;
+    -moz-flex-flow: wrap row;
+    flex-flow: wrap row;
+
+
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+
+}
+ 
+
+.single-hid {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.multiline-hid-2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.multiline-hid-3{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.flex-around {
+    justify-content: space-around;
+}
+
+.flex-cc {
+
+
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+     -webkit-align-items: center;
+    -ms-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+
+}
+
+img.pull-fill {
+    width: 100%;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+ 
+.clearfix:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* 自定义样式结束 ~~ */
