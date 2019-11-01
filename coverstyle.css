@@ -1,0 +1,125 @@
+.text-white {
+    color: azure
+}
+.project1 .stripe{
+    display: inline-block;
+    background-color: #ff7601;
+    height: 175px;
+    width: 7px;
+}
+.project1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    background-color: black;
+}
+
+.project1 h1{
+    color: rgb(230, 187, 106);
+    padding-bottom: 30px;
+}
+.project1 p{
+    color: white;
+    font-size: 1.5rem;
+    width: 500px;
+    display: inline-block;
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 30px;
+    font-style: oblique;
+}
+
+.project1 img{
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    padding-bottom: 30px;
+    
+}
+
+button{
+    margin-left: 50px;
+    font-style: oblique;
+}
+
+.project2 h1{
+    color: rgb(230, 187, 106);
+    padding-bottom: 30px;
+}
+.project2 p{
+    color: white;
+    font-size: 1.5rem;
+    width: 500px;
+    display: inline-block;
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 30px;
+    font-style: oblique;
+}
+
+.project2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    background-color: black;
+}
+
+.project2 .stripe{
+    display: inline-block;
+    background-color: #ff7601;
+    height: 245px;
+    width: 7px;
+}
+
+.project2 img{
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    padding-bottom: 30px;
+    
+}
+
+
+.project3 h1{
+    color: rgb(230, 187, 106);
+    padding-bottom: 30px;
+}
+.project3 p{
+    color: white;
+    font-size: 1.5rem;
+    width: 500px;
+    display: inline-block;
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 30px;
+    font-style: oblique;
+}
+
+.project3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    background-color: black;
+}
+
+.project3 .stripe{
+    display: inline-block;
+    background-color: #ff7601;
+    height: 245px;
+    width: 7px;
+}
+
+.project3 img{
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    padding-bottom: 30px;
+    
+}
+
+.break{
+    margin: 100px;
+    height: 20px;
+    background-color: #ff7601;
+    width: 1000px;
+}
